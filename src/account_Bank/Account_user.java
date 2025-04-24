@@ -33,6 +33,7 @@ public class Account_user {
 		  System.out.print("Enter initial deposit value: ");
 		  double value = sc.nextDouble();
 		  sysAccount.deposit(value);
+		  System.out.println();
 		} else{
 		  System.out.println();
 		} 
@@ -42,7 +43,7 @@ public class Account_user {
 		int option;
 		do {
 			System.out.println("Choose one of these options: ");
-			System.out.print("\r1- Deposit\n2- Withdraw\n3- Close");
+			System.out.println("\r1- Deposit\n2- Withdraw\n3- Close");
 			option = sc.nextInt();
 			
 			if(option == 1) {
@@ -67,7 +68,7 @@ public class Account_user {
 		
 		System.out.print(sysAccount.toString());
 		
-		
+		sc.close();
 		
 		
 		

@@ -46,7 +46,7 @@ public class SysAccountUser {
 	}
 	
 	public String toString() {
-		return "Account " + this.number + ", Holder: " + this.holder + ", Balance: " + this.value;
+		return "Account " + this.number + ", Holder: " + this.holder + ", Balance: $" + this.value;
 	}
 	
 	
